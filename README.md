@@ -4,17 +4,19 @@
 
 > Designed for users migrating from Windows to Linux who want to keep using their Wallpaper Engine Workshop wallpapers (Steam App ID: **431960**).
 
+Note: If you want colaborate in this project, you can do it :)
+
 ---
 
 # Features
 
-- 🖥️ **Native Wayland support** via `mpvpaper`
-- 📂 **Automatic detection** of your Steam Workshop wallpapers
-- 🎨 **Wallpaper preview** with title and description
-- 🔇 **Audio control** (mute/unmute)
-- 💾 **Remembers** your last selected wallpaper
-- ⚙️ **Customizable Workshop directory**
-- 🎬 Supports `.mp4`, `.gif`, `.webm`, and `.avi`
+-  **Native Wayland support** via `mpvpaper`
+-  **Automatic detection** of your Steam Workshop wallpapers
+-  **Wallpaper preview** with title and description
+-  **Audio control** (mute/unmute)
+-  **Remembers** your last selected wallpaper
+-  **Customizable Workshop directory**
+-  Supports `.mp4`, `.gif`, `.webm`, and `.avi`
 
 ---
 
@@ -93,7 +95,7 @@ Expected folder structure:
 
 BluePaper automatically tries the following backends in order:
 
-1. **mpvpaper** — Native Wayland layer-shell support (recommended)
+1. **mpvpaper** — Native Wayland layer-shell support 
 2. **swww** — Ideal for GIF wallpapers on Sway and Hyprland
 3. **mpv** — Embedded/window playback fallback
 
@@ -104,20 +106,6 @@ BluePaper automatically tries the following backends in order:
 ```bash
 sudo bash uninstall.sh
 ```
-
----
-
-# Compatibility
-
-| Desktop Environment | Status | Notes |
-|---------------------|--------|-------|
-| GNOME + Wayland | ✅ | Using mpvpaper |
-| KDE Plasma + Wayland | ✅ | Using mpvpaper |
-| Sway | ✅ | Using mpvpaper or swww |
-| Hyprland | ✅ | Using mpvpaper or swww |
-| GNOME + X11 | ✅ | Using mpv or xwinwrap |
-| Ubuntu 24.04 LTS | ✅ | Tested |
-| Ubuntu 26.04 LTS | ✅ | Supported |
 
 ---
 
