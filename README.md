@@ -51,12 +51,11 @@ sudo cmake --install build
 
 # Usage
 
-```bash
+
 # Launch the graphical interface
 bluepaper
 
 # Or search for "BluePaper" in your application menu
-```
 
 ## First Launch
 
@@ -71,9 +70,9 @@ bluepaper
 
 Default location:
 
-```text
+
 ~/.local/share/Steam/steamapps/workshop/content/431960/
-```
+
 
 Expected folder structure:
 
