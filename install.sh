@@ -96,7 +96,7 @@ Categories=Utility;Settings;DesktopSettings;
 Keywords=wallpaper;animated;steam;workshop;wayland;background;
 StartupNotify=true
 DESKTOP
-chmod 644 "${INSTALL_PREFIX}/share/applications/bluepaper.desktop"
+chmod 744 "${INSTALL_PREFIX}/share/applications/bluepaper.desktop"
 gtk-update-icon-cache "${INSTALL_PREFIX}/share/icons/hicolor" 2>/dev/null || true
 update-desktop-database 2>/dev/null || true
 echo -e "     ${GREEN}✓${NC} Entrada de escritorio creada"
@@ -125,7 +125,7 @@ fi
 
 echo ""
 echo -e "${PURPLE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "${GREEN}${BOLD}  ✓ BluePaper ${VERSION} instalado!${NC}"
+echo -e "${BLUE}${BOLD}  ✓ BluePaper ${VERSION} instalado!${NC}"
 echo -e "${PURPLE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 echo -e "  ${BOLD}Ejecutar:${NC}  ${CYAN}bluepaper${NC}  o busca 'BluePaper' en el menú"
