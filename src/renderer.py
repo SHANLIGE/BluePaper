@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 BluePaper Renderer
-Mismo enfoque que Hidamari: GDK_BACKEND=x11 + Gtk.Window tipo DESKTOP + gtksink
+GDK_BACKEND=x11 + Gtk.Window tipo DESKTOP + gtksink
 """
 
 import os, sys, argparse, signal, subprocess
@@ -44,6 +44,7 @@ def main():
     win.stick()
     win.set_resizable(False)
 
+    # Revisar fondo negro para cambiar en GTK y no haga state en el cambio 
     # Fondo negro
     win.override_background_color(Gtk.StateFlags.NORMAL, Gdk.RGBA(0, 0, 0, 1))
 
